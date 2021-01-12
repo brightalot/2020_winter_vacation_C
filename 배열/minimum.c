@@ -19,6 +19,7 @@ int main(void)
     printf("\n\n");
 
     minimum = prices[0];
+    
     for ( i = 1; i < SIZE; i++)
     {
         if(prices[i] < minimum)
